@@ -21,6 +21,12 @@
 #
 #
 
+
 FROM ubuntu:latest
 
-MAINTAINER Weberson S Pimentel <weberson.pimentel@hotmail.com> version: 1.0
+MAINTAINER Weberson S Pimentel <weberson.pimentel@hotmail.com> version: 0.1
+
+
+# ---------------- Inciando ----------------
+RUN apt-get update
+RUN apt-get -y dist-upgrade
