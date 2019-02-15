@@ -31,5 +31,3 @@ MAINTAINER Weberson S Pimentel <weberson.pimentel@hotmail.com> version: 0.1
 
 RUN apt-get update
 RUN apt-get -y dist-upgrade
-
-# ---------------- Install Roundcube Webmail ----------------
