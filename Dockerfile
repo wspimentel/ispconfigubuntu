@@ -28,7 +28,6 @@ MAINTAINER Weberson S Pimentel <weberson.pimentel@hotmail.com> version: 0.1
 
 
 # ---------------- Inciando ----------------
-<<<<<<< HEAD
 
 RUN apt-get update
 RUN apt-get -y dist-upgrade
@@ -36,7 +35,3 @@ RUN apt-get -y dist-upgrade
 # ---------------- Install Roundcube Webmail ----------------
 
 RUN apt-get -y install roundcube roundcube-core roundcube-mysql roundcube-plugins javascript-common libjs-jquery-mousewheel php-net-sieve tinymce
-=======
-RUN apt-get update
-RUN apt-get -y dist-upgrade
->>>>>>> cc44fa34bd1e7c3e0de5a3b93aad53d3b9f46d3a
