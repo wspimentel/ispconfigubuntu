@@ -21,6 +21,17 @@
 #
 #
 
+
 FROM ubuntu:latest
 
-MAINTAINER Weberson S Pimentel <weberson.pimentel@hotmail.com> version: 1.0
+MAINTAINER Weberson S Pimentel <weberson.pimentel@hotmail.com> version: 0.1
+
+
+# ---------------- Inciando ----------------
+
+RUN apt-get update
+RUN apt-get -y dist-upgrade
+
+# ---------------- Install Roundcube Webmail ----------------
+
+RUN apt-get -y install roundcube roundcube-core roundcube-mysql roundcube-plugins javascript-common libjs-jquery-mousewheel php-net-sieve tinymce
