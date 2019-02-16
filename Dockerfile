@@ -22,7 +22,7 @@
 #
 
 
-FROM ubuntu:latest
+FROM ubuntu:18.04
 
 MAINTAINER Weberson S Pimentel <weberson.pimentel@hotmail.com> version: 0.1
 
