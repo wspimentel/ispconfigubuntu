@@ -19,7 +19,6 @@
 # Link Referência 
 # https://www.howtoforge.com/tutorial/perfect-server-ubuntu-18.04-with-apache-php-myqsl-pureftpd-bind-postfix-doveot-and-ispconfig/3/
 #
-#
 
 FROM ubuntu:18.04
 
@@ -60,3 +59,4 @@ ADD ./etc/mysql/ubuntu.cnf /etc/mysql/ubuntu.cnf
 ADD ./etc/security/limits.conf /etc/security/limits.conf
 RUN mkdir -p /etc/systemd/system/mysql.service.d/
 ADD ./etc/systemd/system/mysql.service.d/limits.conf /etc/systemd/system/mysql.service.d/limits.conf
+
