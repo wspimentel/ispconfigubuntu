@@ -31,7 +31,7 @@ RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install ssh openssh-server rsync
 
 # --- 3 Alterar o shell padrão
-RUN echo "dash  dash/sh boolean no" | debconf-set-selections && dpkg-reconfigure dash
+RUN echo "dash  dash/sh boolean no" | dpkg-reconfigure dash
 
 # --- 4 Desabilitando AppArmor
 RUN service apparmor stop
